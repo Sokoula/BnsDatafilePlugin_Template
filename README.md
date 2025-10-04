@@ -157,7 +157,7 @@ g_imgui->InputText("Input", buffer, sizeof(buffer));
 
 ## 🚨 Important Notes
 
-- **Plugin API Version**: This template uses API version 8
+- **Plugin API Version**: Make sure to keep your submodules updated for best compatibility
 - **Memory Management**: Be careful with memory allocation/deallocation
 - **Game Compatibility**: Test thoroughly with target game version
 - **Performance**: Minimize processing in detour functions to avoid game lag
