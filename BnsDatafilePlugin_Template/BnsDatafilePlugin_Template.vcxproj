@@ -73,12 +73,14 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)bin\$(ProjectName)\$(Configuration)$(PlatformShortName.ToUpper())\</OutDir>
     <IntDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)$(PlatformShortName.ToUpper())\</IntDir>
-    <IncludePath>.\deps\BnsPluginTables\Generated\include;.\deps\DatafilePluginSdk;$(IncludePath)</IncludePath>
+    <IncludePath>.\deps\BnsPluginTables\Generated\include;.\deps\DatafilePluginSdk\BnsPlugin;$(IncludePath)</IncludePath>
+    <TargetName>DatafilePluginTemplate</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)bin\$(ProjectName)\$(Configuration)$(PlatformShortName.ToUpper())\</OutDir>
     <IntDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)$(PlatformShortName.ToUpper())\</IntDir>
-    <IncludePath>.\deps\BnsPluginTables\Generated\include;.\deps\DatafilePluginSdk;$(IncludePath)</IncludePath>
+    <IncludePath>.\deps\BnsPluginTables\Generated\include;.\deps\DatafilePluginSdk\BnsPlugin;$(IncludePath)</IncludePath>
+    <TargetName>DatafilePluginTemplate</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
