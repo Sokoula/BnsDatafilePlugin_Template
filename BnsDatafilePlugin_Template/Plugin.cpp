@@ -6,7 +6,7 @@
  * @file Plugin.cpp
  * @brief Template implementation for a datafile plugin using the BnsDatafilePlugin SDK.
  * @author LEaN
- * 
+ *
  * This file provides a starting point for plugin creators, including example hooks,
  * ImGui panel registration, and plugin metadata definitions.
  */
@@ -78,7 +78,7 @@ static void __fastcall Init(PluginInitParams* params) {
 		g_register = params->registerImGuiPanel;
 		g_unregister = params->unregisterImGuiPanel;
 		ImGuiPanelDesc desc = { g_pluginName, TemplateUiPanel, nullptr };
-		g_panelHandle = g_register(&desc);
+		g_panelHandle = g_register(&desc, false);
 	}
 }
 
