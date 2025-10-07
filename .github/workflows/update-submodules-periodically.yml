@@ -37,3 +37,4 @@ jobs:
             git push origin master
           else
             echo "No submodule updates detected."
+          fi
