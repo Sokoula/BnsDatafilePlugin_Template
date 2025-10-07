@@ -1,4 +1,4 @@
-# BNS Datafile Plugin Template
+# BNS Datafile Plugin Template [![MSBuild](https://github.com/leanleon93/BnsDatafilePlugin_Template/actions/workflows/msbuild.yml/badge.svg)](https://github.com/leanleon93/BnsDatafilePlugin_Template/actions/workflows/msbuild.yml)
 
 A comprehensive template for creating datafile plugins for Blade & Soul using my BnsDatafilePlugin SDK. This template provides a starting point for developers who want to create plugins that can intercept, modify, or extend game data table lookups.
 
