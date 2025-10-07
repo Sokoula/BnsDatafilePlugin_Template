@@ -1,6 +1,7 @@
 #include "DatafilePluginsdk.h"
 #include <EU/item/AAA_item_RecordBase.h>
 #include <EU/BnsTableNames.h>
+#include "plugin_version.h"
 
 /**
  * @file Plugin.cpp
@@ -102,6 +103,6 @@ PluginTableHandler handlers[] = {
 // Plugin metadata and registration macros
 DEFINE_PLUGIN_API_VERSION()
 DEFINE_PLUGIN_IDENTIFIER(g_pluginName)
-DEFINE_PLUGIN_VERSION("1.0.0")
+DEFINE_PLUGIN_VERSION(PLUGIN_VERSION)
 DEFINE_PLUGIN_INIT(Init, Unregister)
 DEFINE_PLUGIN_TABLE_HANDLERS(handlers)

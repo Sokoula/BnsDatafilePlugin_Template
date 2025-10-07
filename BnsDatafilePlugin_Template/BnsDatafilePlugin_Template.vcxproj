@@ -145,6 +145,9 @@
   <ItemGroup>
     <ClCompile Include="Plugin.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plugin_version.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
